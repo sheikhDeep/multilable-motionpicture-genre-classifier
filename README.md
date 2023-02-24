@@ -12,8 +12,12 @@ DistilRoberta-Base from HuggingFace Spaces was fine-tuned by the collected data 
 ## Model Deployment
 The quantized model is deployed on HuggingFace Spaces. It was deployed using Gradle. You can see the model from [here](https://huggingface.co/spaces/sheikhDeep/multilabel-motionpicture-plot-genre-classifier)
 
+<img src = "images/huggingface.jpg" width="900" height="400"> 
+
 ## Web Deployment
 A web app using flask framework was also built and connected to the spaces api. You can see the live website [here](https://multilable-motionpicture-genre-classifier.onrender.com)
+
+<img src = "images/web.jpg" width="900" height="400"> 
 
 ## Contributions
 You are welcome to contribute to this project. You can fork the repository and submit a pull request, or submit an issue with suggestions for improvements.
