@@ -15,7 +15,7 @@ The quantized model is deployed on HuggingFace Spaces. It was deployed using Gra
 <img src = "images/huggingface.JPG" width="900" height="400"> 
 
 ## Web Deployment
-A web app using flask framework was also built and connected to the spaces api. You can see the live website [here](https://multilable-motionpicture-genre-classifier.onrender.com)
+A web app using flask framework was also built and connected to the spaces api. You can find the code in flask-deployment branch. You can also see the live website [here](https://multilable-motionpicture-genre-classifier.onrender.com)
 
 <img src = "images/web.JPG" width="900" height="400"> 
 
