@@ -1,4 +1,4 @@
-# Multilable-motionpicture-genre-classifier
+# Multilabel-motionpicture-genre-classifier
 This is a multilable motionpicture genre classifier project. It can cassify 19 types of genre based on the description of a plot.
 
 **DistilRoberta-Base** model has been fine-tuned on IMDB movie and TV series description. Around 25,000 movie and tv series description has been used to fin-tune the model. Around 88% accuracy was achieved. The model was then converted to ONNX model for optimizing and later quantized by onnx quantifier. The model is deployed on HuggingFace Spaces and on Render as a web app.
